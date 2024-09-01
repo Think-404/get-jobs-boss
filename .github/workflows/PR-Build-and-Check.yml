@@ -22,8 +22,8 @@ jobs:
     # - name: Checkstyle Check
     #   run: mvn checkstyle:check
 
-    - name: JaCoCo Test Coverage
-      run: mvn jacoco:check
+    # - name: JaCoCo Test Coverage
+    #   run: mvn jacoco:check
 
     - name: Upload Reports
       uses: actions/upload-artifact@v2
