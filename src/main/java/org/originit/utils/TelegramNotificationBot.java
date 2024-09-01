@@ -1,4 +1,4 @@
-package utils;
+package org.originit.utils;
 
 import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.model.request.ParseMode;
