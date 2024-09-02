@@ -18,7 +18,7 @@ jobs:
     name: Webhook
     runs-on: ubuntu-latest
     steps:
-      - uses: Think-404/feishu-bot-webhook-action@v1
+      - uses: Think-404/feishu-bot-webhook-action@v1.0.0
         with:
           webhook: ${{ secrets.FEISHU_BOT_WEBHOOK }}
           signkey: ${{ secrets.FEISHU_BOT_SIGNKEY }}
